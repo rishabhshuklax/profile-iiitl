@@ -316,11 +316,12 @@ const somendu = {
     "Data Structure",
     "Image Processing",
   ],
-  contact: ["(+91) 08005035200", "soumendu@iiitl.ac.in"],
-  address: [
+  contact: [
     "Department of Information Technology,",
     "Indian Institute of Information Technology,",
     "Lucknow, India.",
+    "(+91) 08005035200",
+    "soumendu@iiitl.ac.in",
   ],
 }
 
@@ -382,7 +383,6 @@ const sushilTiwari = {
     "(+91) 9369678827",
     "stiwari@iiitl.ac.in",
   ],
-  address: [],
   courses: ["Discrete Mathematics", "Design and Analysis of Algorithm"],
 }
 
