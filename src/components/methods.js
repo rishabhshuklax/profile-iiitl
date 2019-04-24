@@ -1,12 +1,21 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 const NAVRender = props => {
   let list = props.data.map((val, i) => {
     return (
-      <Link to={val.link} key={i} className="faculty-nav-item">
+      /*  <Link activeStyle={{background: "#363636"}} to={val.link} key={i} className="faculty-nav-item">
         {val.value}
-      </Link>
+      </Link> */
+      <AniLink
+        activeStyle={{ background: "#363636" }}
+        /* swipe
+        direction="left" */
+        fade
+        to={val.link}
+      >
+        {val.value}
+      </AniLink>
     )
   })
   return <div className="faculty-nav-inner">{list}</div>

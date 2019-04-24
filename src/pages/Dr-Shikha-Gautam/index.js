@@ -1,7 +1,7 @@
 import React from "react"
 import { shikha } from "../../Data/FacultyData"
 import "../../components/template.css"
-import { ListGenerator, ArrayOfObjects } from "../../components/methods"
+import { ListGenerator } from "../../components/methods"
 import Layout from "../../components/SG"
 
 const lists = [

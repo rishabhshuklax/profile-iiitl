@@ -1,17 +1,18 @@
 import React from "react"
-import { bKC } from "../../Data/FacultyData"
+import { dir } from "../../Data/FacultyData"
 import "../../components/template.css"
-import { ListGenerator } from "../../components/methods"
-import Layout from "../../components/BKC"
-
+import {
+  ParaList,
+} from "../../components/methods"
+import Layout from "../../components/AMS"
 
 class Publications extends React.Component {
   render() {
     return (
       <Layout>
         <div className="faculty-interest">
-          {bKC.experience.map((v, i) => (
-            <ListGenerator data={v} key={i} />
+          {dir.experience.map((v, i) => (
+            <ParaList data={v} key={i} />
           ))}
         </div>
       </Layout>

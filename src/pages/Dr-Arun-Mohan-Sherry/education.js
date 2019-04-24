@@ -1,10 +1,10 @@
 import React from "react"
-import { bKC } from "../../Data/FacultyData"
+import { dir } from "../../Data/FacultyData"
 import "../../components/template.css"
 import { ListGenerator } from "../../components/methods"
-import Layout from "../../components/BKC"
+import Layout from "../../components/AMS"
 
-const lists = [{ head: "Education", list: bKC.education }]
+const lists = [{ head: "Education", list: dir.education }]
 
 class Education extends React.Component {
   render() {

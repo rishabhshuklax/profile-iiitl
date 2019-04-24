@@ -1,12 +1,12 @@
 import React from "react"
-import { vks } from "../../Data/FacultyData"
+import { dir } from "../../Data/FacultyData"
 import "../../components/template.css"
 import { ParaList } from "../../components/methods"
-import Layout from "../../components/VKS/Layout"
+import Layout from "../../components/AMS"
 
-const lists = [{ head: "Contact", list: vks.contact }]
+const lists = [{ head: "Contact", list: dir.contact }]
 
-class Experience extends React.Component {
+class Contact extends React.Component {
   render() {
     return (
       <Layout>
@@ -19,4 +19,4 @@ class Experience extends React.Component {
     )
   }
 }
-export default Experience
+export default Contact

@@ -577,97 +577,91 @@ const dir = {
   awards: [
     {
       head: "Anand Swarup Bhatnagar Gold Medal",
-      list: [
+      detail:
         "Presented by Chancellor of the University for securing highest marks in Post Graduation Examination",
-      ],
     },
     {
       head: "Indian Achievers Award",
-      list: ["For Education Excellence,by Indian Achievers Forum."],
+      detail: "For Education Excellence,by Indian Achievers Forum.",
     },
     {
       head: "Indian Icon Award",
-      list: [
+      detail:
         "For outstanding accomplishments and excellence in the field of Education.",
-      ],
     },
     {
       head: "Maulana Azad Puraskar",
-      list: [
+      detail:
         "On the occasion of National Education Day at India Habitat Centre, New Delhi by Dr.Bhishama Narain Singh, former Governor.",
-      ],
     },
     {
       head: "Rabindranath Tagore Samman",
-      list: ["For contribution in the field of Technical Education."],
+      detail: "For contribution in the field of Technical Education.",
     },
   ],
   journalData: [
     {
       head: '"Bring in Change to Become Globally Relevant"',
-      list: ["The Economic Times"],
+      detail: "The Economic Times",
     },
     {
       head: '"Educating India"',
-      list: ["The Times of India"],
+      detail: "The Times of India",
     },
     {
       head: '"In Search of Capitalizing on Diverse Workforce"',
-      list: ["Business Standard"],
+      detail: "Business Standard",
     },
     {
       head: '"Miles Ahead"',
-      list: ["India Today"],
+      detail: "India Today",
     },
     {
       head:
         '"Optimization of Function by using a New MATLAB based Genetic Algorithm Procedure"',
-      list: ["International Journal of Computer Applications"],
+      detail: "International Journal of Computer Applications",
     },
     {
       head: "An Empirical Study of e-Governance System Integration in India",
-      list: [
+      detail:
         "International Conference, ‘Learning Organization in a Learning World’ Bangkok- Thailand.",
-      ],
     },
     {
       head:
         "Challenges of Technology Infrastructure Availability in E- Governance Program Implementations: A Cloud based Solution.",
-      list: ["IOSR Journal of Computer Engineering"],
+      detail: "IOSR Journal of Computer Engineering",
     },
     {
       head: "Critical Success Factor in Offshoring ERP Implementation",
-      list: ["Business Systems Research Journal"],
+      detail: "Business Systems Research Journal",
     },
     {
       head: "Leveraging Technology Options in Financial Inclusion in India",
-      list: [
+      detail:
         "International Journal of Asian Business and Information Management",
-      ],
     },
     {
       head:
         "Role of Technology Options for Financial Inclusion: Case Study in India.",
-      list: ["IGI Global Publications"],
+      detail: "IGI Global Publications",
     },
     {
       head:
         "Transcending the Digital Divide: Paving Itinerary for Conducive Digital Economy",
-      list: [
+      detail:
         "International Conference on E-Business” National University of Singapore.",
-      ],
     },
     {
       head: "“Innovate and Educate”",
-      list: ["descriptionTimes of India"],
+      detail: "descriptionTimes of India",
     },
     {
       head: "“Leadership in Education”",
-      list: ["Business World"],
+      detail: "Business World",
     },
     {
       head: "“Strengthening the new age Knowledge Economy”",
-      list: ["The Economic Times"],
+      detail: "The Economic Times",
     },
   ],
   education: [
@@ -739,11 +733,11 @@ const dir = {
     },
   ],
   courses: [""],
-  contact: ["director@iiitl.ac.in"],
-  address: [
+  contact: [
     "Department of Information Technology,",
     "Indian Institute of Information Technology,",
     "Lucknow, India.",
+    "director@iiitl.ac.in",
   ],
 }
 
