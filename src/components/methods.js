@@ -37,9 +37,13 @@ const ListGenerator = props => {
   let list = props.data.list.map((val, i) => <li key={i}>{val}</li>)
   return (
     <div className="faculty-interest-section-1">
-      <h2 className="faculty-interest-head faculty-section-head">
-        {props.data.head}
-      </h2>
+      {props.data.head === "" ? (
+        ""
+      ) : (
+        <h2 className="faculty-interest-head faculty-section-head">
+          {props.data.head}
+        </h2>
+      )}
       <div className="faculty-interest-list">
         <ul>{list}</ul>
       </div>
@@ -109,5 +113,19 @@ const ArrayOfObjects = props => {
     </div>
   )
 }
-
-export { Methods, NAVRender, AboveNav, ListGenerator, ArrayOfObjects }
+const ParaList = props => {
+  let list = props.data.list.map((val, i) => <p key={i}>{val}</p>)
+  return (
+    <div className="faculty-interest-section-1">
+      {props.data.head === "" ? (
+        ""
+      ) : (
+        <h2 className="faculty-interest-head faculty-section-head">
+          {props.data.head}
+        </h2>
+      )}
+      <div className="faculty-interest-list">{list}</div>
+    </div>
+  )
+}
+export { Methods, NAVRender, AboveNav, ListGenerator, ParaList, ArrayOfObjects }

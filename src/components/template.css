@@ -139,7 +139,7 @@ li {
 }
 
 .faculty-interest {
-  margin-top: 5%;
+  margin-top: 1%;
   display: flex;
   /* justify-content: space-between; */
   flex-direction: column;
@@ -317,6 +317,11 @@ li {
   .faculty-alt-nav-inner {
     /* display: block; */
   }
+}
+.faculty-experience-head {
+  /* margin-top: 40px; */
+  font-size: 35px;
+  /* margin-left: 10px; */
 }
 .padding-res {
   padding-left: 250px;

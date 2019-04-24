@@ -61,11 +61,12 @@ const vks = {
     "System Modelling and Simulations",
     "Information Retrieval Systems",
   ],
-  contact: ["(+91) 6394817065", "vks@iiitl.ac.in"],
-  address: [
+  contact: [
     "Department of Information Technology,",
     "Indian Institute of Information Technology,",
     "Lucknow, India.",
+    "(+91) 6394817065",
+    "vks@iiitl.ac.in",
   ],
 }
 const aM = {
@@ -121,11 +122,12 @@ const mary = {
     "Visiting Faculty, Mathematics Stream, Department of Applied Sciences, Indian Institute of Information Technology Allahabad since 22 ndJanuary, 2018- 14 th November, 2018.",
     "Working as Assistant Professor (On Contract) Academic Grade Pay Rs. 6000/- at Indian Institute of Information Technology Lucknow since 14 th November, 2018.",
   ],
-  contact: ["9446670759", "marysamuel@iiitl.ac.in"],
-  address: [
+  contact: [
     "Department of Information Technology,",
     "Indian Institute of Information Technology,",
     "Lucknow, India.",
+    "9446670759",
+    "marysamuel@iiitl.ac.in",
   ],
 }
 

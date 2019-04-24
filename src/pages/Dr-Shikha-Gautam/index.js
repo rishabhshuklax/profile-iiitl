@@ -1,7 +1,26 @@
 import React from "react"
-import { Link } from "gatsby"
 import { vks } from "../../Data/FacultyData"
-import profile from "../../assets/profile/VKS.jpg"
 import "../../components/template.css"
-import Template from "../../components/layout"
-import { Methods, NAVRender, AboveNav } from "../../components/methods"
+import { ListGenerator, ArrayOfObjects } from "../../components/methods"
+import Layout from "../../components/VKS/Layout"
+
+const lists = [{ head: "Reasearch Interests", list: vks.interests }]
+
+class VKS extends React.Component {
+  render() {
+    return (
+      <Layout>
+        <div className="faculty-interest">
+          <ListGenerator data={lists[0]} />
+        </div>
+        <div className="faculty-awards-global">
+          <ArrayOfObjects
+            data={{ list: vks.awards }}
+            other={{ head: "Latest Achievements", className: "" }}
+          />
+        </div>
+      </Layout>
+    )
+  }
+}
+export default VKS
