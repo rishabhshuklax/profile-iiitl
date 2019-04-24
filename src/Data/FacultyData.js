@@ -333,11 +333,12 @@ const aP = {
     "M. Tech from Indian Institute of Information Technology Allahabad",
   ],
   conference: [""],
-  contact: ["05322922450", "abhishek.pandey@iiitl.ac.in"],
-  address: [
+  contact: [
     "Department of Information Technology,",
     "Indian Institute of Information Technology,",
     "Lucknow, India.",
+    "05322922450",
+    "abhishek.pandey@iiitl.ac.in",
   ],
   courses: [
     "Data Structures, B.Tech(IT) II Semester",
