@@ -1,0 +1,335 @@
+.faculty-template-global {
+  font-family: "Playfair Display", serif;
+  background: whitesmoke;
+  line-height: 1.7;
+}
+.faculty-above-nav {
+  background-color: whitesmoke;
+}
+.faculty-above-nav-inner {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 0px !important;
+}
+.faculty-above-nav-inner img {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 0px;
+}
+.above-nav-section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.above-nav-section-1 h2 {
+  font-weight: normal;
+  color: #005699;
+  font-family: "Playfair Display", serif;
+}
+.faculty-body {
+  margin-top: 40px;
+}
+#faculty-body-education {
+  display: none;
+}
+#faculty-body-journals {
+  display: none;
+}
+#faculty-body-experience {
+  display: none;
+}
+#faculty-body-courses {
+  display: none;
+}
+#faculty-body-contact {
+  display: none;
+}
+.faculty-education-list li {
+  padding: 10px;
+}
+.faculty-above-nav-inner {
+  padding: 30px;
+  padding-bottom: 0px;
+}
+.faculty-above-nav {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #ededed60;
+}
+.faculty-above-nav-head-name {
+  color: #005699;
+  font-size: 2rem;
+}
+.faculty-above-nav-head-position {
+  color: #005699;
+  font-size: 1.5rem;
+}
+.faculty-above-nav-item {
+  /* color: #005699; */
+  font-size: 1.2rem;
+}
+.faculty-nav {
+  background-color: #005699;
+}
+.faculty-nav-inner {
+  overflow: hidden;
+  background-color: #005699;
+  display: flex;
+  justify-content: space-around;
+}
+
+.faculty-nav-inner a {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.faculty-nav-item-dropdown {
+  overflow: hidden;
+}
+
+.faculty-nav-item-dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  display: flex;
+}
+
+.faculty-nav-inner a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #363636;
+}
+
+.faculty-drop-item {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.faculty-drop-item a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.faculty-drop-item a:hover {
+  background-color: #ddd;
+}
+
+.faculty-nav-item-dropdown:hover .faculty-drop-item {
+  display: block;
+}
+
+.faculty-interest {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dropbtn:hover {
+  background: #363636;
+}
+.faculty-section-head {
+  font-size: 2rem;
+  color: #005699;
+}
+.faculty-section-head::after {
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #008080;
+  content: "";
+  margin-top: 0.5vw;
+  margin-left: 10px;
+}
+.faculty-photo {
+  /* background: url("https://iiitl.ac.in/sites/default/files/inline-images/vks_0.png"); */
+}
+.faculty-interest-list {
+  font-size: 18px;
+}
+.dropbtn .fa {
+  margin-top: 4px;
+  margin-left: 3px;
+}
+.faculty-award-head {
+  color: #005699;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 7px;
+}
+.faculty-award-detail {
+  color: black;
+  padding: 5px 10px;
+}
+.faculty-journals li {
+  padding: 10px;
+}
+.faculty-conference-list li {
+  padding: 10px;
+}
+.faculty-footer {
+  background: #01213a;
+  color: rgba(255, 255, 255, 0.884);
+  display: flex;
+  padding: 5px 20px;
+}
+.faculty-footer div {
+  padding: 10px;
+}
+.faculty-interest {
+  display: flex;
+  justify-content: space-between;
+}
+.faculty-interest-section-1 {
+  width: 70%;
+}
+.faculty-interest-section-2 {
+  width: 20%;
+}
+#shikha-photo {
+  /* background: url("../assets/Shikha.jpg"); */
+  margin: 0;
+  height: 15vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.faculty-hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 33px;
+  color: white;
+}
+.faculty-alt-nav-inner {
+  display: none;
+}
+.faculty-experience-head {
+  font-weight: normal;
+}
+.faculty-experience li {
+  padding: 10px;
+}
+.faculty-image-hid {
+  display: none;
+}
+.faculty-journals-sub-head {
+  font-size: 22px;
+  color: #005699;
+}
+.faculty-award-para {
+  padding: 10px;
+}
+.faculty-experience ul {
+  list-style-type: none;
+  padding: 0;
+}
+.faculty-journals-dir {
+  margin: 20px;
+}
+.faculty-journals-head-dir {
+  font-size: 22px;
+  color: #005699;
+}
+.faculty-journals-dir li {
+  padding: 2px;
+}
+.faculty-journals-dir ul {
+  list-style-type: none;
+  margin: 0px;
+}
+.faculty-dir-after::after {
+  display: block;
+  width: 60px;
+  height: 2px;
+  background-color: #008080;
+  content: "";
+  margin-top: 0.5vw;
+  margin-left: 10px;
+}
+@media only screen and (max-width: 1920px) {
+  .faculty-alt-nav-inner {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .faculty-image-hid {
+    display: flex;
+    justify-content: center;
+  }
+  .above-nav-section-2 {
+    display: none;
+  }
+  .faculty-image-hid img {
+    width: 52vw;
+    height: 52vw;
+  }
+}
+@media only screen and (max-width: 867px) {
+  .faculty-nav-inner {
+    display: none;
+  }
+  .faculty-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .faculty-alt-nav-inner {
+    text-decoration: none;
+    background: rgb(5, 35, 41);
+    /* display: flex; */
+    flex-direction: column;
+  }
+  .faculty-alt-nav-inner a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+  }
+  .faculty-alt-nav-inner a:hover {
+    background: rgba(0, 0, 0, 0.123);
+  }
+  .faculty-hamburger {
+    display: block;
+    align-self: flex-end;
+  }
+  .faculty-body {
+    padding: 0 20px;
+  }
+  .faculty-alt-nav-inner {
+    /* display: block; */
+  }
+}
+.padding-res {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+@media only screen and (max-width: 1330px) {
+  .padding-res {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .padding-res {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+@media only screen and (max-width: 867px) {
+  .padding-res {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
