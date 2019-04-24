@@ -211,42 +211,43 @@ const niharika = {
     "Data Communication",
     "Data Communication",
   ],
-  contact: [" (+91) 9410000068", "niharika@iiitl.ac.in"],
-  address: [
+  contact: [
     "Department of Information Technology,",
     "Indian Institute of Information Technology,",
     "Lucknow, India.",
+    " (+91) 9410000068",
+    "niharika@iiitl.ac.in",
   ],
   experience: [
     {
       head:
         "Assistant Professor at Indian Institute of Information Technology, Lucknow.",
-      sub: "Duration: November 2018 – Contd",
+      detail: "Duration: November 2018 – Contd",
     },
     {
       head:
         "Assistant Professor (Contractual) at Thapar Institute of Engineering Technology, Patiala",
-      sub: "Duration: July 2018–November 2018.",
+      detail: "Duration: July 2018–November 2018.",
     },
     {
       head:
         "Assistant Professor at Meerut Institute of Engineering Technology, Meerut",
-      sub: "Duration : August 2017–June 2018.",
+      detail: "Duration : August 2017–June 2018.",
     },
     {
       head:
         "Assistant Professor at Meerut Institute of Engineering Technology, Meerut",
-      sub: "Duration : August 2012–December 2013.",
+      detail: "Duration : August 2012–December 2013.",
     },
     {
       head:
         "Sr. Lecturer at Meerut Institute of Engineering Technology, Meerut",
-      sub: "Duration : January 2010–July 2010.",
+      detail: "Duration : January 2010–July 2010.",
     },
     {
       head:
         "Lecturer at College of Engineering Technology (Now IFTM University), Moradabad",
-      sub: "Duration: August 2006–Oct. 2009.",
+      detail: "Duration: August 2006–Oct. 2009.",
     },
   ],
 }
@@ -543,11 +544,12 @@ const bKC = {
       ],
     },
   ],
-  contact: ["+91‐8770180714", "brijesh@iiitl.ac.in"],
-  address: [
+  contact: [
     "Department of Information Technology,",
     "Indian Institute of Information Technology,",
     "Lucknow, India.",
+    "+91‐8770180714",
+    "brijesh@iiitl.ac.in",
   ],
   courses: [
     "Network Security",
@@ -559,7 +561,7 @@ const bKC = {
   ],
   awards: [
     {
-      head: "Awards & Achievements:",
+      head: "",
       list: [
         "Best Paper Award for “Pseudonym Based Mechanism for Sustaining Privacy in VANETs,” In the First IEEE International conference on Computational Intelligence, Communication Systems and Networks (CICSYN-2009), Indore, India, pp. 420 – 425, 2009",
         "Best research publication award by ITM University Gwalior, 2013.",

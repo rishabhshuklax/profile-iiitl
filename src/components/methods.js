@@ -75,9 +75,9 @@ class Methods {
               {val.head}
             </h2>
           )}
-          <div className="faculty-award-detail" key={i}>
+          <p className="faculty-award-detail" key={i}>
             {val.detail}
-          </div>
+          </p>
         </li>
       )
     })
@@ -113,6 +113,32 @@ const ArrayOfObjects = props => {
     </div>
   )
 }
+const ArrayOfObjectsList = props => {
+  let list = props.data.list.map((val, i) => {
+    return (
+      <p className="faculty-award-inner">
+        {val.head === "" ? (
+          ""
+        ) : (
+          <h2 className="faculty-award-head" key={i}>
+            {val.head}
+          </h2>
+        )}
+        <ul className="faculty-award-detail" key={i}>
+          {val.list.map((v, i) => (
+            <li key={i}>{v}</li>
+          ))}
+        </ul>
+      </p>
+    )
+  })
+  return (
+    <div className={props.other.className}>
+      <h2 className="faculty-section-head">{props.other.head}</h2>
+      <ul>{list}</ul>
+    </div>
+  )
+}
 const ParaList = props => {
   let list = props.data.list.map((val, i) => <p key={i}>{val}</p>)
   return (
@@ -128,4 +154,12 @@ const ParaList = props => {
     </div>
   )
 }
-export { Methods, NAVRender, AboveNav, ListGenerator, ParaList, ArrayOfObjects }
+export {
+  Methods,
+  NAVRender,
+  AboveNav,
+  ListGenerator,
+  ParaList,
+  ArrayOfObjects,
+  ArrayOfObjectsList,
+}
