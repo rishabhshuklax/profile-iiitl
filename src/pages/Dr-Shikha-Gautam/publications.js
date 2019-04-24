@@ -1,15 +1,19 @@
 import React from "react"
 import { shikha } from "../../Data/FacultyData"
 import "../../components/template.css"
-import { ListGenerator, ArrayOfObjects } from "../../components/methods"
+import { ListGenerator } from "../../components/methods"
 import Layout from "../../components/SG"
 
 const lists = [
-  { head: "Reasearch Interests", list: shikha.interests },
   { head: "Publications", list: shikha.journalData },
+  {
+    head: "Two research papers are under review in international journal:",
+    list: shikha.review,
+  },
+  { head: "Books:", list: shikha.books },
 ]
 
-class Shikha extends React.Component {
+class Publications extends React.Component {
   render() {
     return (
       <Layout>
@@ -22,4 +26,4 @@ class Shikha extends React.Component {
     )
   }
 }
-export default Shikha
+export default Publications

@@ -164,11 +164,12 @@ const shikha = {
     "M.Tech. degree from Dr. A.P.J. Abdul Kalam Technical University",
     "B.Tech. degree from Institute of Engineering and Technology (IET Lucknow)",
   ],
-  contact: ["9198354341", "shikhagautam@iiitl.ac.in"],
-  address: [
+  contact: [
     "Department of Information Technology,",
     "Indian Institute of Information Technology,",
     "Lucknow, India.",
+    "9198354341",
+    "shikhagautam@iiitl.ac.in",
   ],
   review: [
     "Brijendra Singh and Shikha Gautam, “Integrating Usability through Software Process” in Sadhana Academy Proceedings in Engineering Sciences, Springer India.",

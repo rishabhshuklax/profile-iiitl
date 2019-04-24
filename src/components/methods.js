@@ -27,7 +27,7 @@ const AboveNav = props => {
           </div>
         </div>
         <div className="above-nav-section-2">
-          <img src={props.data.photo} alt="VKS" />
+          <img src={props.data.photo} alt="img" />
         </div>
       </div>
     </div>
