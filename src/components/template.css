@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display|Slabo+27px");
+
 .faculty-template-global {
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
   background: whitesmoke;
   line-height: 1.7;
 }
@@ -22,10 +24,10 @@
   flex-direction: column;
   justify-content: center;
 }
-.above-nav-section-1 h2 {
+h2 {
   font-weight: normal;
   color: #005699;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display"; */
 }
 .faculty-body {
   margin-top: 40px;
@@ -45,8 +47,10 @@
 #faculty-body-contact {
   display: none;
 }
-.faculty-education-list li {
-  padding: 10px;
+li {
+  padding: 5px;
+  letter-spacing: 0.5px;
+  line-height: 1.7;
 }
 .faculty-above-nav-inner {
   padding: 30px;
@@ -137,7 +141,9 @@
 .faculty-interest {
   margin-top: 5%;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  flex-direction: column;
+  /* align-items: center; */
 }
 
 .dropbtn:hover {
@@ -181,6 +187,7 @@
 }
 .faculty-conference-list li {
   padding: 10px;
+  letter-spacing: 2px;
 }
 .faculty-footer {
   background: #01213a;
@@ -196,7 +203,7 @@
   justify-content: space-between;
 }
 .faculty-interest-section-1 {
-  width: 70%;
+  /* width: 70%; */
 }
 .faculty-interest-section-2 {
   width: 20%;
@@ -314,6 +321,8 @@
 .padding-res {
   padding-left: 250px;
   padding-right: 250px;
+  background: whitesmoke;
+  font-family: "Playfair Display", serif;
 }
 @media only screen and (max-width: 1330px) {
   .padding-res {

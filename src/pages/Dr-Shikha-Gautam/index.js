@@ -1,0 +1,7 @@
+import React from "react"
+import { Link } from "gatsby"
+import { vks } from "../../Data/FacultyData"
+import profile from "../../assets/profile/VKS.jpg"
+import "../../components/template.css"
+import Template from "../../components/layout"
+import { Methods, NAVRender, AboveNav } from "../../components/methods"

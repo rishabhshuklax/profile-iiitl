@@ -6,18 +6,18 @@ const vks = {
     "Data Analytics",
     "Internet of Things",
   ],
-  awards: {
-    award1: {
+  awards: [
+    {
       detail:
         "Vishal Krishna Singh, Manish Kumar and Shekhar Verma. ‘Node Scheduling and Compressed Sampling for Event Reporting in WSNs (2018)’ accepted for publication in in IEEE Transactions on Network Science and Engineering. IEEE.",
       head: "",
     },
-    award2: {
+    {
       detail:
         "Vishal Krishna Singh and Manish Kumar. ‘In-network Data Processing in Wireless Sensor Networks Using Compressed Sensing’ (2016). DOI: 10.1504/IJSNET.2016.10001449. Forthcoming articles: International Journal of Sensor Networks. (Impact Factor- 0.454),Inder Science Publishers.",
       head: "",
     },
-  },
+  ],
   journalData: [
     'Vishal Krishna Singh, Manish Kumar, and Shekhar Verma. "Node Scheduling and Compressed Sampling for Event Reporting in WSNs." In IEEE Transactions on Network Science and Engineering (2018), Doi: 10.1109/TNSE.2018.2799845.',
     "Vishal Krishna Singh, Manish Kumar, 2016. Hierarchical Compressed Sensing for Cluster Based Wireless Sensor Networks. International Journal of Advanced Computer Science Applications, 1(7), pp.58-67.",
