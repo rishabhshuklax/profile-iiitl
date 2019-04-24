@@ -375,12 +375,14 @@ const sushilTiwari = {
     "18 June 2010 to 16 Jan 2012 worked as assistant professor at Technocrats Institute of Technology, Bhopal (MP), 462021",
     "20 Jan 2012 to 30 June 2013 worked as Contract Faculty at Maulana Azad National Institute of Technology, Bhopal (MP) 462003",
   ],
-  contact: ["(+91) 9369678827", "stiwari@iiitl.ac.in"],
-  address: [
+  contact: [
     "Department of Information Technology,",
     "Indian Institute of Information Technology,",
     "Lucknow, India.",
+    "(+91) 9369678827",
+    "stiwari@iiitl.ac.in",
   ],
+  address: [],
   courses: ["Discrete Mathematics", "Design and Analysis of Algorithm"],
 }
 

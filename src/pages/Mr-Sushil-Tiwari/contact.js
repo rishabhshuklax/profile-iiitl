@@ -1,10 +1,10 @@
 import React from "react"
-import { shikha } from "../../Data/FacultyData"
+import { sushilTiwari } from "../../Data/FacultyData"
 import "../../components/template.css"
 import { ParaList } from "../../components/methods"
-import Layout from "../../components/SG"
+import Layout from "../../components/ST"
 
-const lists = [{ head: "Teachings", list: shikha.contact }]
+const lists = [{ head: "Contact", list: sushilTiwari.contact }]
 
 class Contact extends React.Component {
   render() {
