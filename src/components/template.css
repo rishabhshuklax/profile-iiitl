@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather|Playfair+Display|Slabo+27px");
-
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
 body {
   margin: 0px;
 }
@@ -311,8 +311,9 @@ li {
     background: rgba(0, 0, 0, 0.123);
   }
   .faculty-hamburger {
-    display: block;
-    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
   }
   .faculty-body {
     padding: 0 20px;
@@ -349,4 +350,7 @@ li {
     padding-left: 0;
     padding-right: 0;
   }
+}
+#alt-ham-hid {
+  display: none;
 }

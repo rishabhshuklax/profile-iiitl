@@ -12,13 +12,59 @@ const NAVRender = props => {
         /* swipe
         direction="left" */
         fade
+        key={i}
         to={val.link}
       >
         {val.value}
       </AniLink>
     )
   })
-  return <div className="faculty-nav-inner">{list}</div>
+  const openNav = () => {
+    document.getElementById("faculty-alt-nav").style.display = "flex"
+    document.getElementById("alt-ham-hid").style.display = "block"
+    document.getElementById("alt-ham-show").style.display = "none"
+    return
+  }
+  const closeNav = () => {
+    document.getElementById("faculty-alt-nav").style.display = "none"
+    document.getElementById("alt-ham-hid").style.display = "none"
+    document.getElementById("alt-ham-show").style.display = "block"
+    return
+  }
+  return (
+    <div className="">
+      {" "}
+      <div className="faculty-nav-inner">{list}</div>
+      <div className="faculty-hamburger">
+        <i
+          className="fas fa-bars"
+          id="alt-ham-show"
+          onClick={() => openNav()}
+        />
+        <i
+          className="fas fa-bars"
+          id="alt-ham-hid"
+          onClick={() => closeNav()}
+        />
+      </div>
+      <div className="faculty-alt-nav-inner" id="faculty-alt-nav">
+        {props.data.map((val, i) => {
+          return (
+            <AniLink
+              activeStyle={{ background: "#363636" }}
+              to={val.link}
+              key={i}
+              fade
+              className="faculty-nav-item"
+              //   onClick={() => closeNav()}
+            >
+              {val.value}
+            </AniLink>
+          )
+        })}
+      </div>
+    </div>
+  )
 }
 const AboveNav = props => {
   return (
