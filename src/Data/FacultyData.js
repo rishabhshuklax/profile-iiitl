@@ -72,11 +72,11 @@ const vks = {
 const aM = {
   interests: ["Bioelectrics", "Biomechanics", "Machine Learning"],
   education: ["Ph.D. (Old Dominion University, Norfolk)"],
-  contact: ["am@iiitl.ac.in"],
-  address: [
+  contact: [
     "Department of Information Technology,",
     "Indian Institute of Information Technology,",
     "Lucknow, India.",
+    "am@iiitl.ac.in",
   ],
 }
 const mary = {
